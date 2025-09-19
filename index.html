@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+
+    <link rel="stylesheet" href="css/mycss_web.css" media="screen and (min-width: 769px)">
+    <link rel="stylesheet" href="css/mycss_tablet.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="css/mycss_print.css" media="print">
+
+    <style>
+        span {
+            color: darkred;
+            font-weight: bold;
+        }
+    </style>
+    <style>
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align:center; color: navy;">Welcome to My Profile Page</h1>
+
+    <div id="profile" class="profile-card">
+        <h1>Basic Profile Information</h1>
+        <p style="color: darkblue; font-weight: bold;">
+            Name: <span>Minyeol Park</span>
+        </p>
+        <p style="color: darkblue; font-weight: bold;">
+            Major: <span>Computer Science</span>
+        </p>
+        <p style="color: darkblue; font-weight: bold;">
+            PFP:
+        </p>
+        <p><img src="https://i.pinimg.com/736x/6f/b4/10/6fb4105a99036369de4fa7d6f2d0e131.jpg" alt="Profile Picture"
+                class="profile-pic"></p>
+    </div>
+
+    <div id="education">
+        <h1>Education Summary</h1>
+        <ul>
+            <li>High School Graduate</li>
+        </ul>
+    </div>
+
+    <div id="experience">
+        <h1>Work Experience / Internships</h1>
+        <ul>
+            <li>Korean Tutor at St. John’s University</li>
+        </ul>
+    </div>
+
+    <div id="skills">
+        <h1>Programming Skills</h1>
+        <table>
+            <tr>
+                <th>Language</th>
+                <th>Experience</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="interests">
+        <h1>General Interests</h1>
+        <ul>
+            <li>Volleyball</li>
+            <li>Valorant</li>
+            <li>Piano</li>
+            <li>Working Out</li>
+        </ul>
+    </div>
+
+    <div id="favorites">
+        <h1>Favorite Song, Film, and TV Show</h1>
+
+        <p>Favorite Song Currently: <b>KEEPER by GIVEON</b></p>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/2cuDp5ENoao?si=iwkkGlomhXa1KfwO"
+            frameborder="0" allowfullscreen></iframe>
+
+        <p>Favorite Film: <b>Your Name</b></p>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/xU47nhruN-Q" frameborder="0"
+            allowfullscreen></iframe>
+
+        <p>Favorite TV Show: <b>Attack on Titan</b></p>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/MGRm4IzK1SQ" frameborder="0"
+            allowfullscreen></iframe>
+    </div>
+
+    <div id="websites">
+        <h1>Favorite Websites</h1>
+        <ul>
+            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            <p>YouTube is a free to use website to watch videos that other people post online.</p>
+            <li><a href="https://www.netflix.com/" target="_blank">Netflix</a></li>
+            <p>Netflix provides a number of TV shows and movies that you can watch for a paid subscription.</p>
+        </ul>
+    </div>
+
+    <div id="projects">
+        <h1>My Projects</h1>
+        <ul>
+            <li><a href="index.html">Project 1: Profile Page</a></li>
+        </ul>
+    </div>
+
+    <div id="contact">
+        <h1>Contact Me</h1>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+    <div id="menu">
+        <h1>Menu</h1>
+        <ul>
+            <li><a href="#profile">Basic Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#skills">Programming Skills</a></li>
+            <li><a href="#interests">General Interests</a></li>
+            <li><a href="#favorites">Favorites</a></li>
+            <li><a href="#websites">Favorite Websites</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
